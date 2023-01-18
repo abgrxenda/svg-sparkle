@@ -14,6 +14,8 @@ Note 4: As of 2023, this works on Edge
 
 Note 5: example `svgSparkle($('img.logo),5,1000)` which is the jQuery for image with class logo, showing 5 sparkles for 1 second
 
+Note 6: If your target element is fixed on the page with scrolling (i.e: position:fixed) then you need to change the style sheet for `.sparkle` from `position:absolute;` to `position:fixed;`
+
 ##Demo
 
 [projects.lukehaas.me/svg-sparkle](http://projects.lukehaas.me/svg-sparkle)

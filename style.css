@@ -26,7 +26,7 @@ h1 {
 	filter: drop-shadow(1px 0px 2px black);
 }
 .sparkle {
-	position:absolute;
+	position:absolute; /* change this to fixed in case your target element is fixed on the page with scrolling*/
 	z-index: 1000;
 }
 .small-sparkle1 {
