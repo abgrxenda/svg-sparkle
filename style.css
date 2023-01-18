@@ -27,6 +27,7 @@ h1 {
 }
 .sparkle {
 	position:absolute;
+	z-index: 1000;
 }
 .small-sparkle1 {
 	-webkit-transform:scale(0.7);
